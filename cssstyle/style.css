@@ -1,0 +1,209 @@
+body {
+	font-family:  'Spartan', sans-serif;
+	margin: 0;	
+}
+
+.header h1 {
+	font-weight: 700;
+}
+
+.flexone {
+	color: hsl(300, 43%, 22%);
+}
+
+.header p {
+	color: hsl(303, 10%, 53%);
+}
+
+.customer {
+	color: hsl(0, 0%, 100%);
+	background: hsl(300, 43%, 22%);
+	border-radius: .5rem;
+}
+
+.color {
+	color: hsl(333, 80%, 67%);
+	font-weight: 400;
+}
+
+.stars {
+	background: hsl(300, 24%, 96%);
+	border-radius: .3rem;
+}
+
+.flexthree p {
+	font-weight: 500;
+}
+
+img {
+	border-radius: 20px;
+}
+
+.person {
+	display: flex;
+}
+
+@media screen and (min-width: 280px) {
+	.main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header {
+		text-align: center;
+	}
+
+	.flextwo {
+		text-align: center;
+		padding-top: 1.5rem;
+	}
+
+	body p {
+		line-height: 180%;
+	}
+
+	h1 {
+		font-size: 200%;
+	}
+
+	.flexone {
+		width: 330px;
+	}
+
+	.customer {
+		width: 330px;
+	}
+
+	.stars {
+		padding-top: 1rem;
+	}
+
+	.flexone p {
+		font-size: 90%;
+	}
+
+	.flexone h2 {
+		font-size: 85%;
+		margin-top: .1rem;	
+	}
+
+	.star {
+		margin: 2px;
+		padding-top: .5rem;
+	}
+
+	.person img {
+		width: 43px;
+		height: 43px;
+        margin: auto 0 auto 0;
+	}
+
+	.flexthree p {
+		font-size: 75%;
+		padding: .7rem 3.3rem 2rem 2rem;
+	}
+
+	.person {
+		padding: 2.5rem 0 0 2rem;	
+	}
+
+	.person h2 {
+		width: 150px;
+		padding-left: 1.5rem;
+		margin: auto 0 auto 0;	
+	}
+
+	.flexthree {
+		padding: 3.5rem 0 3.5rem 0;
+	}
+
+	.flexthree h2 {
+		font-size: 90%;
+	}	
+}
+
+@media screen and (min-width: 1000px) {
+	.main {
+		display: block;
+	}
+
+	.flexone {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.flextwo {
+		position: relative;
+		float: right;
+	}
+
+	.star {
+		padding-top: unset;
+        height: 16px;
+        margin: auto 3px auto 3px;
+	}
+
+	.star:nth-of-type(1) {
+		padding-left: 1.5rem;
+	}
+
+	.flextwo h2 {
+		margin-bottom: unset;
+		font-size: 90%;
+		padding: 1.5rem 4rem 1.5rem 2rem;
+	}
+
+	.flexthree {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		transform: skewY(2deg);
+	}
+
+	.header {
+		text-align: unset;
+		font-size: 160%;
+		padding: 3rem 0 0 8rem;	
+	}
+
+	.header h1 {
+		width: 500px;
+	}
+
+	.header p {
+		font-size: 60%;
+	}
+
+	.flextwo {
+		text-align: unset;
+		position: absolute;
+        top: 4rem;
+        right: 8rem;
+        transform: skewX(25deg);
+        padding-right: 2.5rem;
+	}
+
+	.stars {
+		display: flex;
+		flex-direction: row;
+		padding-top: unset;
+		margin-bottom: 1rem;
+		transform: skewX(-25deg);
+	}
+
+	.main {
+		justify-content: unset;
+		align-items: unset;
+	}
+
+	.customer {
+		width: 370px;
+		margin: 1rem;
+		transform: skewY(-2deg);
+	}
+
+	
+
+}
